@@ -56,10 +56,13 @@ AGE_LABEL = {
 # ------------------------------------------------------------------
 # 사이드바 네비게이션
 # ------------------------------------------------------------------
+# 로고 이미지 삽입 (사이드바 상단)
+st.sidebar.image("healthlab_logo.png", use_container_width=True)
+
 st.sidebar.title("MENU")
 page = st.sidebar.radio(
     label =  "",
-    options = ["📊 인공향료 노출 현황 (통계)", "🧮 나의 하루 노출지수 계산기"],
+    options = ["📊 인공향료 노출 현황 (통계)", "🧮 나의 하루 노출지수 계산기", "ℹ️ 전체 출처"],
     label_visibility="collapsed"
 )
 
