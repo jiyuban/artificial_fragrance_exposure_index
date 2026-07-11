@@ -16,7 +16,7 @@ from pathlib import Path
 
 DATA_DIR = Path(__file__).parent / "data"
 
-st.set_page_config(page_title="경일고 | 인공향료 노출 지수 시뮬레이션", page_icon="🧴", layout="wide")
+st.set_page_config(page_title="헬스랩 | 인공향료 노출 지수 시뮬레이션", page_icon="🧴", layout="wide")
 
 
 # ------------------------------------------------------------------
