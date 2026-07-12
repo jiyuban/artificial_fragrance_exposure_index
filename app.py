@@ -62,7 +62,7 @@ st.sidebar.image("healthlab_logo.png", use_container_width=True)
 st.sidebar.title("MENU")
 page = st.sidebar.radio(
     label =  "",
-    options = ["📊 인공향료 노출 현황 (통계)", "🧮 나의 하루 노출지수 계산기", "ℹ️ 전체 출처"],
+    options = ["📊 인공향료 노출 현황 (통계)", "🧮 나의 하루 노출지수 계산기"],
     label_visibility="collapsed"
 )
 
